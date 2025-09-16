@@ -8,48 +8,48 @@ import { ArrowRight, BookOpen, Users, Star } from "lucide-react";
 const Index = () => {
   const featuredPosts = [
     {
-      title: "Building Modern Web Applications",
-      excerpt: "Learn the fundamentals of creating scalable and maintainable web applications using the latest technologies and best practices.",
-      author: "Alex Johnson",
+      title: "The Art of Draping: Mastering Fabric Flow",
+      excerpt: "Explore the fundamental techniques of draping that transform flat fabric into stunning three-dimensional fashion pieces.",
+      author: "Isabella Martinez",
       date: "Mar 15, 2024",
       readTime: "8 min read",
-      category: "Technology",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
+      category: "Techniques",
+      image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop",
       featured: true
     },
     {
-      title: "The Art of Minimalist Design",
-      excerpt: "Discover how minimalist design principles can enhance user experience and create more impactful digital products.",
-      author: "Sarah Chen",
+      title: "Minimalist Fashion: Less is More",
+      excerpt: "Discover how minimalist design principles create timeless, elegant pieces that transcend seasonal trends.",
+      author: "Sophie Laurent",
       date: "Mar 12, 2024",
       readTime: "5 min read",
-      category: "Design",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop"
+      category: "Style",
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=300&fit=crop"
     },
     {
-      title: "Remote Work Best Practices",
-      excerpt: "Essential tips and strategies for maintaining productivity and work-life balance in a remote work environment.",
-      author: "Mike Davis",
+      title: "Color Psychology in Fashion",
+      excerpt: "Understanding how colors influence emotions and perceptions in fashion design and personal styling choices.",
+      author: "David Kim",
       date: "Mar 10, 2024",
       readTime: "6 min read",
-      category: "Lifestyle",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop"
+      category: "Psychology",
+      image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400&h=300&fit=crop"
     },
     {
-      title: "Travel Photography Tips",
-      excerpt: "Capture stunning travel moments with these professional photography techniques and composition secrets.",
-      author: "Emma Wilson",
+      title: "Street Style Photography",
+      excerpt: "Capturing authentic fashion moments and street style inspiration from fashion capitals around the world.",
+      author: "Maya Patel",
       date: "Mar 8, 2024",
       readTime: "7 min read",
-      category: "Travel",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop"
+      category: "Photography",
+      image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=300&fit=crop"
     }
   ];
 
   const stats = [
-    { icon: BookOpen, label: "Articles Published", value: "150+" },
-    { icon: Users, label: "Active Readers", value: "10K+" },
-    { icon: Star, label: "5-Star Reviews", value: "500+" }
+    { icon: BookOpen, label: "Fashion Articles", value: "150+" },
+    { icon: Users, label: "Fashion Enthusiasts", value: "10K+" },
+    { icon: Star, label: "Designer Features", value: "500+" }
   ];
 
   return (
@@ -61,14 +61,14 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Welcome to BlogSpace
+              Fashion Design Hub
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Discover amazing stories, insights, and ideas from passionate writers around the world. 
-              Join our community of readers and creators.
+              Explore the latest fashion trends, designer insights, and style inspirations from the world's most creative minds. 
+              Join our community of fashion enthusiasts and industry professionals.
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3">
-              Start Reading
+              Explore Fashion
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
@@ -103,9 +103,9 @@ const Index = () => {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Articles</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Fashion Stories</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore our most popular and thought-provoking articles, carefully curated for you.
+              Discover our most inspiring fashion articles, from design techniques to industry insights.
             </p>
           </div>
           
@@ -119,7 +119,7 @@ const Index = () => {
           
           <div className="text-center mt-12">
             <Button variant="outline" size="lg" className="px-8 py-3">
-              View All Articles
+              View All Fashion Stories
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>

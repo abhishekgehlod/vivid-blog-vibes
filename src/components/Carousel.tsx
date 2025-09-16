@@ -13,24 +13,24 @@ interface CarouselItem {
 const carouselItems: CarouselItem[] = [
   {
     id: 1,
-    title: "The Future of Web Development",
-    description: "Exploring cutting-edge technologies and frameworks that are shaping the future of web development.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop",
-    category: "Technology"
+    title: "Spring 2024 Fashion Trends",
+    description: "Discover the hottest fashion trends dominating runways and streets this spring season.",
+    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=400&fit=crop",
+    category: "Trends"
   },
   {
     id: 2,
-    title: "Design Trends 2024",
-    description: "Discover the latest design trends that are revolutionizing user experiences across digital platforms.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
-    category: "Design"
+    title: "Sustainable Fashion Revolution",
+    description: "How eco-conscious designers are reshaping the fashion industry with sustainable practices and materials.",
+    image: "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=400&fit=crop",
+    category: "Sustainability"
   },
   {
     id: 3,
-    title: "Remote Work Revolution",
-    description: "How remote work is changing the landscape of modern business and personal productivity.",
-    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=400&fit=crop",
-    category: "Lifestyle"
+    title: "Haute Couture Masterpieces",
+    description: "Exploring the artistry and craftsmanship behind the world's most exclusive haute couture collections.",
+    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&h=400&fit=crop",
+    category: "Couture"
   },
 ];
 
